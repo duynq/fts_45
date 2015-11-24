@@ -9,4 +9,8 @@ Rails.application.routes.draw do
       root to: "devise/sessions#new", as: "unauthenticated_root"
     end
   end
+  namespace :admin do
+    root "subjects#index"
+    resources :subjects
+  end
 end

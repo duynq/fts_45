@@ -40,3 +40,22 @@ en:
       update: "Update"
       deleteaccount: "Delete Account"
       confirm: "Are you sure?"
+  footer:
+    about: "About"
+    contact: "Contact"
+  admin:
+    subject:
+      new: "Create a subject"
+      success: "You have create a Subject successfully!"
+      fail: "You failed to create a Subject "
+      submit: "Submit"
+      title: " All Subjects"
+      create: "create a subject"
+      edit: "Edit"
+      destroy: "Delete"
+  id: "Id"
+  subjectname: "Subjects Name"
+  confirm: "you sure?"
+  update: "Update successfully! "
+  deletefail: "Delete fail"
+  deletesuccess: "delete successfully!"
