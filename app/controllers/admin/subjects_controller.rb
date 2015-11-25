@@ -31,7 +31,7 @@ class Admin::SubjectsController < ApplicationController
 
   def destroy
     @subject.destroy
-    flash[:success] = t "flash.delete"
+    flash[:success] = t "deletesuccess"
     redirect_to admin_subjects_path
   end
 
